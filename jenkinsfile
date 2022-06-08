@@ -1,0 +1,19 @@
+pipeline
+{
+agent any
+stages
+{
+stage('build')
+{
+Build is running
+}
+stage('test')
+{
+test is running
+}
+stage('deploy')
+{
+Deploy is running
+}
+}
+}
