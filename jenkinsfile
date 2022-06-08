@@ -1,28 +1,24 @@
-pipeline
-{
+pipeline{
 agent any
 stages 
 {
 stage('Build')
 {
-steps
-{
+steps{
 echo "Build is running"
 }
 }
 stage('Test')
 {
-steps
-{
+steps{
 echo "Test is running"
 }
 }
 stage('Deploy')
 {
-steps
-{
+steps{
 echo "Deploy is running"
 }
 }
 }
-}}
+}
